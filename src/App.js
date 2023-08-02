@@ -155,24 +155,6 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <Box sx={{ display: "flex" }}>
-        <CssBaseline />
-
-        <Toolbar
-          sx={{
-            pr: "24px", // keep right padding when drawer closed
-          }}
-        >
-          <Typography
-            component="h1"
-            variant="h6"
-            color="inherit"
-            noWrap
-            sx={{ flexGrow: 1 }}
-          >
-            Dashboard
-          </Typography>
-        </Toolbar>
-
         <Box
           component="main"
           sx={{
